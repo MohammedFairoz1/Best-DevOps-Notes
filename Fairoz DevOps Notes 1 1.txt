@@ -494,4 +494,10 @@ C:\Windows\System32\drivers\etc\hosts
 
 Linux commands
 
-check group exist - getent group docker
+- check group exist - getent group docker
+
+- Apply the new group membership immediately - "newgrp docker"
+    newgrp: Command to switch the current session to a new group.
+    docker: The group you're switching to.
+
+- Check CPU Architecture Use - "uname -m"
